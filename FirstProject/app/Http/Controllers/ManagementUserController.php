@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class ManagementUserController extends Controller
+{
+  //disini isi controller management user
+  public function index()
+  {
+    return "Halo ini adalah method index, dalam controller ManagementUser.";
+  }
+}
